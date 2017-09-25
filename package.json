@@ -1,0 +1,20 @@
+{
+  "name": "learning",
+  "version": "1.0.0",
+  "description": "Test app",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Parag B",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "mongodb": "^2.2.31",
+    "mongojs": "^2.4.1",
+    "mongoose": "^4.11.13"
+  }
+}
