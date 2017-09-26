@@ -1,0 +1,12 @@
+[{
+    "name" : "Scoop-D",
+    "description" : "Ice cream single scoop",
+    "price" : 40,
+    "manufacturer" : "Dinshaw"
+},
+{
+    "name" : "Scoop-H",
+    "description" : "Ice cream single scoop",
+    "price" : 35,
+    "manufacturer" : "Havmor"
+}]

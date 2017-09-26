@@ -1,11 +1,17 @@
 const express = require('express');
-const mongojs = require('mongojs');
+const mongoose = require('mongoose');
 
-const db = mongojs('mongodb://parag:parag@ds151004.mlab.com:51004/learndb',['products'])
+mongoose.connect('mongodb://localhost:27017/products')
 
 const app = express();
 
 const port = 1200;
+
+mongoose.connection.once('open',(err)=>{
+    console.log('DB connected');
+});
+
+
 
 app.get('/',(req,res)=>{
     db.products.find((err, products)=>{
